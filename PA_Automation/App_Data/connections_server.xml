@@ -1,0 +1,68 @@
+<ServerConnections>
+	<connection name="ECLAIMLINKPORTAL">
+		<server>-S 10.156.62.60 </server>
+		<database>-d EclaimLinkPortal </database>
+		<username>-U fazeel </username>
+		<password>-P Dell@123 </password>
+	</connection>
+	<connection name="ECLAIMLINK">
+		<server>-S 10.156.62.60 </server>
+		<database>-d Eclaimlink </database>
+		<username>-U fazeel </username>
+		<password>-P Dell@123 </password>
+	</connection>
+	<connection name="ERX">
+		<server>-S 10.156.62.60 </server>
+		<database>-d ERX </database>
+		<username>-U fazeel </username>
+		<password>-P Dell@123 </password>
+	</connection>
+	<connection name="Archive">
+		<server>-S 10.156.62.53 </server>
+		<database>-d DHPO </database>
+		<username>-U fshaikh </username>
+		<password>-P fshaikh@2016 </password>
+	</connection>
+  <connection name="DHPO">
+    <server>-S 10.162.176.24 </server>
+    <database>-d DHPO </database>
+    <username>-U fshaikh </username>
+    <password>-P Dell@600 </password>
+  </connection>
+  <connection name="DHPO_QA">
+    <server>-S 10.11.13.41 </server>
+    <database>-d DHPO2 </database>
+    <username>-U FAnsari </username>
+    <password>-P ansari.COM </password>
+  </connection>
+	<connection name="PBMM">
+		  <server>-S 10.162.176.85 </server>
+    <database>-d PBMM </database>
+    <username>-U FAnsari </username>
+    <password>-P Fa_2662 </password>
+	</connection>
+  <connection name="PBMUAT">
+    <server>-S 10.11.13.43 </server>
+    <database>-d PBMM </database>
+    <username>-U fshaikh </username>
+    <password>-P Dell@123 </password>
+  </connection>
+  <connection name="PBMUATFaisal">
+    <server>-S 10.11.13.43 </server>
+    <database>-d PBMM </database>
+    <username>-U FAnsari  </username>
+    <password>-P ansari.COM </password>
+  </connection>
+	<connection name="OICProvider">
+		<server>-S 10.11.13.163 </server>
+		<database>-d OIC.Eauth </database>
+		<username>-U fshaikh </username>
+		<password>-P Dell@123 </password>
+	</connection>
+	<connection name="OICPayer">
+		<server>-S 10.162.176.29 </server>
+		<database>-d eAuth </database>
+		<username>-U fshaikh </username>
+		<password>-P Dell@123 </password>
+	</connection>
+</ServerConnections>
